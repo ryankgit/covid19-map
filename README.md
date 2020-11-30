@@ -6,17 +6,18 @@ Generates maps from COVID-19 data from https://github.com/GoogleCloudPlatform/co
 # Dependencies
 ~~~
 pip install wheel
-pip install pipwin
-
-pipwin install numpy
-pipwin install pandas
-pipwin install shapely
-pipwin install gdal
-pipwin install fiona
-pipwin install pyproj
-pipwin install six
-pipwin install rtree
-pipwin install geopandas
+pip install numpy
+pip install pandas
+pip install shapely
+pip install gdal
+pip install fiona
+pip install pyproj
+pip install six
+pip install rtree
+pip install geopandas
+pip install matplotlib
+pip install descartes
+pip install mapclassify
 ~~~
 
 _`requirements.txt` coming soon_
