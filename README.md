@@ -20,4 +20,4 @@ pip install descartes
 pip install mapclassify
 ~~~
 
-_`requirements.txt` coming soon_
+Install all dependencies at once with `pip install -r requirements.txt`
