@@ -1,23 +1,29 @@
 # covid19-map
 
-Generates maps from COVID-19 data from https://github.com/GoogleCloudPlatform/covid-19-open-data
+Generates choropleth maps of total Covid-19 deaths at the county and state level using data gathered from the [COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19).
 
 
 # Dependencies
 ~~~
-pip install wheel
-pip install numpy
 pip install pandas
-pip install shapely
-pip install gdal
-pip install fiona
-pip install pyproj
-pip install six
-pip install rtree
-pip install geopandas
-pip install matplotlib
-pip install descartes
-pip install mapclassify
+pip install plotly
 ~~~
 
 Install all dependencies at once with `pip install -r requirements.txt`
+
+# Example Maps
+**Example State Map:**
+
+![Example state map](/example_maps/state_example.png)
+
+_(based on 12/12/2020 data)_
+
+**Example County Map:**
+
+![Example county map](/example_maps/county_example.png)
+
+_(based on 12/12/2020 data)_
+
+# Future Work
+* Fix map titles
+* Add base layer with state borders
