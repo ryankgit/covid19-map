@@ -25,5 +25,6 @@ _(based on 12/12/2020 data)_
 _(based on 12/12/2020 data)_
 
 # Future Work
-* Fix map titles
+* Find new data source that covers all US states
+* Fix map title positioning
 * Add base layer with state borders
